@@ -1,0 +1,146 @@
+body {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 2em;
+}
+
+#mainText {
+    margin-bottom: 2em;
+    font-size: 24px;
+}
+
+#title {
+    margin-top: 1em;
+    font-size: 45px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 1em;
+}
+
+img {
+    width: 40%;
+    margin-bottom: 0;
+}
+
+#image1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#image2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 3em;
+}
+
+#image3 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#image4 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 3em;
+}
+
+#image5 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#image6 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-top: 3em;
+}
+
+.reverse {
+    font-size: 15px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.position {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 12em;
+}
+
+footer {
+    position: relative;
+    margin-top: 1em;
+    text-align: center;
+}
+
+#foot {
+    color: gray;
+    font-size: 8px;
+}
+
+
+@media (min-width: 1440px){
+    #conteiner {
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 12px;
+    }
+
+    #mainText {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 1em;
+        font-size: 18px;
+        width: 60%;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    #title {
+        font-size: 30px;
+    }
+
+    img {
+        width: 20%;
+        margin: 0;
+    }
+
+    .reverse {
+        font-size: 6px;
+    }
+
+    .position {
+        margin-left: 8em;
+    }
+
+    #image4 {
+        margin-top: 0;
+    }
+
+    #image5 {
+        margin-top: 3em;
+    }
+
+    #image6 {
+        margin-top: 0;
+    }
+
+    footer {
+        margin-top: 2em;
+    }
+
+}
